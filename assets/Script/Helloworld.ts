@@ -35,24 +35,6 @@ export default class Helloworld extends cc.Component {
             touchLoc = this.node.parent.convertToNodeSpaceAR(touchLoc);
             
             this.mousePosition = new cc.Vec2(touchLoc.x, touchLoc.y);
-            
-            // this.points.push(touchLoc);
-
-            // this.ctx.clear();
-
-            // for (let i = 0; i < this.points.length; i++) {
-            //     let p = this.points[i];
-            //     if (i === 0) {
-            //         this.ctx.moveTo(p.x, p.y);
-            //     } else {
-            //         this.ctx.lineTo(p.x, p.y);
-            //     }
-            // }
-
-            // this.ctx.moveTo(this.points[0].x, this.points[0].y);
-            // this.ctx.lineTo(touchLoc.x, touchLoc.y);
-
-            // this.ctx.stroke();
         }, this);
     }
 
